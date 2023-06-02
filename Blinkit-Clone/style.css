@@ -100,7 +100,7 @@ header .container{
     
 }
 .main-container {
-    max-width:1240px;
+    max-width:1200px;
     
 }
 
@@ -124,8 +124,6 @@ header .container{
 .banner-2 img {
     height: 195px;
     width: 335px; 
-    
-   
 }
 .categories {
     display: grid;
@@ -138,8 +136,7 @@ header .container{
 
 .item {
     display: flex;
-    flex-direction: column; 
-    
+    flex-direction: column;  
 }
 .item .title {
     display: flex;
@@ -328,6 +325,7 @@ header .container{
 }
 
 @media  screen and (min-width:320px) and (max-width:480px) {
+
     .logo {
         padding:10px;
         margin-left:20px;
@@ -361,6 +359,51 @@ header .container{
         font-size: 10px
        
     }
-    
+    .banner-1  {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+    .banner-1 img {
+        width: 70%;
+        margin: auto;
+        margin-left: 35%;
+        
+    }
+  
+    .banner-2 img {
+        margin-left: 25%;
+        
+    }
+    .categories {
+        margin-left: 20%;
+        overflow: auto;
+        overflow: hidden;
+    }
+    .item {
+        margin-left: 37%;
+        width: 100%;
+        
+    }
+    .footer-heading {
+        display: none;
+
+    }
+    .footer-content {
+        display: none;
+
+    }
+    .footer-description1 {
+        display: none;
+ 
+    }
+    .footer-description2 {
+        display: none;
+ 
+    }
+    .made {
+        margin-right: 30%;
+    }
+ 
 }
 

@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Everything delivered in minutes | Blinkit</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/blinkit-logo.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -39,11 +40,11 @@
     </header>
     <main class="wrapper">      
       <div class="main-container">
-        <section class="  banner-1">
+        <section class="  banner-1" data-aos="zoom-out-right">
             <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=2700/layout-engine/2022-05/Group-33704.jpg" alt="paan corner banner">
         </section>
 
-        <section class=" banner-2">
+        <section class=" banner-2" data-aos="zoom-out-left">
              <div class="banner-image">
                 <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=720/layout-engine/2023-03/beauty-WEB.jpg" alt="masthead_web_beauty_store">
              </div>
@@ -64,7 +65,7 @@
              </div> 
         </section>
 
-        <section class="categories">
+        <section class="categories" data-aos="fade-up" data-aos-duration="3000">
             <div>
                 <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-12/paan-corner_web.png">
             </div>
@@ -127,7 +128,7 @@
             </div>
         </section>
 
-        <section class="item">
+        <section class="item" data-aos="fade-down" data-aos-easing="linear"  data-aos-duration="1500">
             <div class="title">
                 <div class="categorie-name">Dairy, Bread & Eggs</div>
                 <a href="#">see all</a>
@@ -317,7 +318,7 @@
                 
         </section>
 
-        <section class="item">
+        <section class="item" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
             <div class="title">
                 <div class="categorie-name">Snacks & Munchies</div>
                 <a href="#">see all</a>
@@ -511,7 +512,7 @@
                 
         </section>
 
-        <section class="item">
+        <section class="item" data-aos="fade-up"  data-aos-anchor-placement="top-center">
             <div class="title">
                 <div class="categorie-name">Hookah</div>
                 <a href="#">see all</a>
@@ -656,7 +657,7 @@
                 
         </section>
  
-        <section class="item">
+        <section class="item" data-aos="flip-left" data-aos-easing="ease-out-cubic"  data-aos-duration="2000">
             <div class="title">
                 <div class="categorie-name">Cold Drinks & Juices</div>
                 <a href="#">see all</a>
@@ -848,7 +849,7 @@
                 
         </section>
 
-        <section class="item">
+        <section class="item" data-aos="fade-up"  data-aos-anchor-placement="top-bottom">
             <div class="title">
                 <div class="categorie-name">Candies & Gums</div>
                 <a href="#">see all</a>
@@ -1095,7 +1096,10 @@
         </div>
 
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
